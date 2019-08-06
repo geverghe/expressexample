@@ -1,10 +1,7 @@
 {
-    "name": "expressexample",    
-    "version": 2,    
+    "version": 2,
+    "name": "express",
     "builds": [
-      {
-        "src": "package.json",
-        "use": "@now/static-build"        
-      }
+        { "src": "**/*.js", "use": "@now/node" }
     ]
 }
