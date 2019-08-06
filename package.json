@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "mkdir -p public && touch public/index.html"
+    "build": "node-server build"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
